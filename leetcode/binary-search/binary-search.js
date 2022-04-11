@@ -50,9 +50,14 @@ var search = function (nums, target) {
         return -1;
     }
 
+    const javaScriptBuiltInSearch = (array, target) => {
+        return array.indexOf(target)
+    }
+
     // return binarySearchRecursive(nums, 0, nums.length - 1);
-    return binarySearchIterative(nums, target);
+    // return binarySearchIterative(nums, target);
+    return javaScriptBuiltInSearch(nums, target);
 };
 
-const result = search([-1, 0, 3, 5, 9, 12], 127);
+const result = search([-1, 0, 3, 5, 9, 12], 12);
 console.log("Result: ", result);
