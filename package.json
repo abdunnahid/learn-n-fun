@@ -1,21 +1,14 @@
 {
   "name": "problem-solving",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Practice problem solving.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdunnahid/problem-solving.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abdunnahid/problem-solving/issues"
-  },
+  "keywords": ["ProblemSolving", "JavaScript", "LeetCode"],
+  "author": "Abdun Nahid",
+  "license": "MIT",
   "homepage": "https://github.com/abdunnahid/problem-solving#readme",
   "type": "module"
 }
