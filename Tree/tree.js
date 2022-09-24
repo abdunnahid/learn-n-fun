@@ -25,20 +25,25 @@ class Node {
 
 
 // Numbers
-const a = new Node(10);
+const a = new Node(1);
 const b = new Node(2);
-const c = new Node(1);
+const c = new Node(3);
 const d = new Node(4);
 const e = new Node(5);
 const f = new Node(6);
 const g = new Node(7);
+const h = new Node(8);
 
 // ========================
 //           1
 //       /       \
 //     2           3
-//   /   \       /   \
-//  4     5     6     7
+//   /   \       /   
+//  4     5     6     
+//             /
+//            7
+//           /
+//          8
 // ========================
 
 
@@ -47,7 +52,8 @@ a.right = c;
 b.left = d;
 b.right = e;
 c.left = f;
-c.right = g;
+f.left = g;
+g.left = h;
 
 
 export { a as rootNode };
