@@ -1,0 +1,1 @@
+Problem Url: https://leetcode.com/contest/weekly-contest-312/problems/longest-subarray-with-maximum-bitwise-and/
