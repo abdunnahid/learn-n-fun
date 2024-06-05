@@ -7,15 +7,15 @@ var maxArea = function (height) {
     let left = 0;
     let right = height.length - 1;
 
-    let maxContainerSize = 0;
+    let largestContainer = 0;
 
     while (left < right) {
 
-        const maxHeight = Math.min(height[left], height[right]);
+        const shorterHeight = Math.min(height[left], height[right]);
         const width = right - left;
-        const containerSize = maxHeight * width;
-        maxContainerSize = Math.max(maxContainerSize, containerSize);
-        
+        const containerSize = shorterHeight * width;
+        largestContainer = Math.max(largestContainer, containerSize);
+
         if (height[left] >= height[right]) {
             right--;
         }
@@ -24,8 +24,24 @@ var maxArea = function (height) {
         }
     }
 
-    return maxContainerSize;
+    return largestContainer;
 
+};
+
+var maxAreaTimeLimitExceeds = function (height) {
+    let largestContainer = 0;
+
+    for (let i = 0; i < height.length; i++) {
+        for (let j = height.length - 1; j > i; j--) {
+
+            const shorterHeight = Math.min(height[i], height[j]);
+            const width = j - i;
+            const currentContainerSize = shorterHeight * width;
+            largestContainer = Math.max(largestContainer, currentContainerSize)
+        }
+    }
+
+    return largestContainer;
 };
 
 // const result = maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]);
