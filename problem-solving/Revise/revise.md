@@ -7,3 +7,6 @@ Url: https://leetcode.com/problems/product-of-array-except-self
 
 3. LeetCode Problem 334. Increasing Triplet Subsequence
 Url: https://leetcode.com/problems/increasing-triplet-subsequence
+
+4. LeetCode Problem 846. Hand of Straights
+Url: https://leetcode.com/problems/hand-of-straights
