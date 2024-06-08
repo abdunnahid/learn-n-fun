@@ -10,3 +10,6 @@ Url: https://leetcode.com/problems/increasing-triplet-subsequence
 
 4. LeetCode Problem 846. Hand of Straights
 Url: https://leetcode.com/problems/hand-of-straights
+
+5. LeetCode Problem 523. Continuous Subarray Sum
+Url: https://leetcode.com/problems/continuous-subarray-sum
