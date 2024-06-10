@@ -13,3 +13,6 @@ Url: https://leetcode.com/problems/hand-of-straights
 
 5. LeetCode Problem 523. Continuous Subarray Sum
 Url: https://leetcode.com/problems/continuous-subarray-sum
+
+5. LeetCode Problem 974. Subarray Sums Divisible by K
+Url: https://leetcode.com/problems/subarray-sums-divisible-by-k
