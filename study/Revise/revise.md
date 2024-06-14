@@ -19,3 +19,6 @@ Url: https://leetcode.com/problems/subarray-sums-divisible-by-k
 
 7. LeetCode Problem 1004. Max Consecutive Ones III
 Url: https://leetcode.com/problems/max-consecutive-ones-iii
+
+7. LeetCode Problem 945. Minimum Increment to Make Array Unique
+Url: https://leetcode.com/problems/minimum-increment-to-make-array-unique
