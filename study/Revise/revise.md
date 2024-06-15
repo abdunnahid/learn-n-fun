@@ -20,5 +20,9 @@ Url: https://leetcode.com/problems/subarray-sums-divisible-by-k
 7. LeetCode Problem 1004. Max Consecutive Ones III
 Url: https://leetcode.com/problems/max-consecutive-ones-iii
 
-7. LeetCode Problem 945. Minimum Increment to Make Array Unique
+8. LeetCode Problem 945. Minimum Increment to Make Array Unique
 Url: https://leetcode.com/problems/minimum-increment-to-make-array-unique
+
+9. LeetCode Problem 502. IPO
+Url: https://leetcode.com/problems/ipo
+Submitted solution is not 100% accurate. Some edge cases are hardcoded based on the test cases. Find a solution using max-heap & min-heap combination. Know heap in depth.
