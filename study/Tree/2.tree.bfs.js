@@ -1,4 +1,4 @@
-import { rootNode } from "./tree.js";
+import { rootNode } from "./1.tree.js";
 
 const treeBfs = (root) => {
 
@@ -10,17 +10,18 @@ const treeBfs = (root) => {
 
         if(node.left) queue.unshift(node.left);
         if(node.right) queue.unshift(node.right);
-
-        console.log("Queue: ", queue);
-
     }
-
+    
 }
 
+// console.log("Queue: ", JSON.stringify(rootNode, null, 2));
 treeBfs(rootNode);
 
-//         a
+// Tree:
+//         1
 //       /   \
-//     b       c
-//   /   \    /  \
-// d      e  f     g
+//     2       3
+//   /   \    / \
+// 4      5  6   7  
+//              /
+//             8

@@ -1,4 +1,4 @@
-import { rootNode } from "./tree.js";
+import { rootNode } from "./1.tree.js";
 
 const treeSum = (root) => {
 
@@ -12,8 +12,11 @@ const result = treeSum(rootNode);
 console.log("Result: ", result);
 
 
-//           1
-//       /       \
-//     2           3
-//   /   \       /   \
-//  4     5     6     7
+// Tree:
+//         1
+//       /   \
+//     2       3
+//   /   \    / \
+// 4      5  6   7
+//              /
+//             8

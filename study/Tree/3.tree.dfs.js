@@ -1,4 +1,4 @@
-import { rootNode } from "./tree.js";
+import { rootNode } from "./1.tree.js";
 
 const treeDfsRecursive = (root) => {
 
@@ -12,10 +12,15 @@ const treeDfsRecursive = (root) => {
     treeDfsRecursive(root.right);
 }
 
+// console.log(JSON.stringify(rootNode, null, 2));
 treeDfsRecursive(rootNode);
 
-//         a
+// Tree:
+//         1
 //       /   \
-//     b       c
-//   /   \    /  \
-// d      e  f     g
+//     2       3
+//   /   \    / \
+// 4      5  6   7  
+//              /
+//             8
+     

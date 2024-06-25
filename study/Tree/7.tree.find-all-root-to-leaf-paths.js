@@ -1,9 +1,10 @@
-import { rootNode } from "./tree.js";
+import { rootNode } from "./1.tree.js";
 
-const findpathsR = (root) => {
+const findpaths = (root) => {
 
-    const result = [];
     if (root === null) return [];
+
+    const paths = [];
 
     const dfs = (node, pathTracker = [], index = 0) => {
 
@@ -13,14 +14,14 @@ const findpathsR = (root) => {
         console.log("currentPath===> ", pathTracker);
 
         if (node.left === null && node.right === null) {
-            console.log('FOUND A LEAF NODE!!! ', pathTracker);
+            console.log('FOUND A LEAF NODE!!! Path: ', pathTracker);
 
             const path = [];
             for (let i = 0; i <= index; i++) {
                 path.push(pathTracker[i]);
             }
 
-            result.push(path);
+            paths.push(path);
             return;
         }
 
@@ -31,20 +32,18 @@ const findpathsR = (root) => {
 
     dfs(root);
 
-    return result;
+    return paths;
 
 }
 
-// ========================
-//           1
-//       /       \
-//     2           3
-//   /   \       /   
-//  4     5     6     
-//             /
-//            7
-//           /
-//          8
-// ========================
-const result = findpathsR(rootNode);
+const result = findpaths(rootNode);
 console.log('Result: ', result);
+
+// Tree:
+//         1
+//       /   \
+//     2       3
+//   /   \    / \
+// 4      5  6   7
+//              /
+//             8
