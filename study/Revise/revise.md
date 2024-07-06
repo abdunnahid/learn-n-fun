@@ -25,4 +25,8 @@ Url: https://leetcode.com/problems/minimum-increment-to-make-array-unique
 
 9. LeetCode Problem 502. IPO
 Url: https://leetcode.com/problems/ipo
-Submitted solution is not 100% accurate. Some edge cases are hardcoded based on the test cases. Find a solution using max-heap & min-heap combination. Know heap in depth.
+Note: Submitted solution is not 100% accurate. Some edge cases are hardcoded based on the test cases. Find a solution using max-heap & min-heap combination. Know heap in depth.
+
+10. LeetCode Problem: 2582. Pass the Pillow
+Url: https://leetcode.com/problems/pass-the-pillow
+Note: Technique to find out array index after n iteration that get reversed when reach to an end(end/start).
