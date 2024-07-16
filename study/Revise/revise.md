@@ -30,3 +30,7 @@ Note: Submitted solution is not 100% accurate. Some edge cases are hardcoded bas
 10. LeetCode Problem: 2582. Pass the Pillow
 Url: https://leetcode.com/problems/pass-the-pillow
 Note: Technique to find out array index after n iteration that get reversed when reach to an end(end/start).
+
+11.  LeetCode Problem: 2096. Step-By-Step Directions From a Binary Tree Node to Another
+Url: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another
+Note: LCA & Path Finding
